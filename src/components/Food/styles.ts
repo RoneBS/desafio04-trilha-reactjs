@@ -1,8 +1,14 @@
 import styled, { css } from 'styled-components';
 
-export const Container = styled.div`
+interface HeaderProps {
+  available?: boolean;
+}
+
+export const Container = styled.div<HeaderProps>`
   background: #f0f0f5;
   border-radius: 8px;
+  max-width: 405.33px;
+  
 
   header {
     background: #ffb84d;
@@ -11,6 +17,7 @@ export const Container = styled.div`
     overflow: hidden;
     transition: 0.3s opacity;
     text-align: center;
+    
 
     ${props =>
     !props.available &&

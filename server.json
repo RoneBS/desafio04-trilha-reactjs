@@ -23,6 +23,14 @@
       "price": "25.90",
       "available": false,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+    },
+    {
+      "image": "https://d37k6lxrz24y4c.cloudfront.net/v2/pt-br/e9dc924f238fa6cc29465942875fe8f0/f379a3ca-0ab7-48fb-b4dc-e4f1f8bbc36a-800.webp",
+      "name": "parmegiana",
+      "price": "20.00",
+      "description": "teste",
+      "available": true,
+      "id": 4
     }
   ]
 }
